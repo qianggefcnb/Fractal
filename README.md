@@ -65,5 +65,25 @@ yarn cli send -i 45ee725c2c5993b3e4d308842d87e973bf1951f5f7a804b21e4dd964ecd12d6
 
 说明：45ee725c2c5993b3e4d308842d87e973bf1951f5f7a804b21e4dd964ecd12d6b_0 是 CAT 的 TokenID
 
+自动mint脚本
+1、nano cat.sh
+2、复制下面内容粘贴,其中 sleep 60为1分钟提交一次，可以自己修改
+3、ctrl+x 推出 选择y 保存
 
+#!/bin/bash
 
+command="sudo yarn cli mint -i 45ee725c2c5993b3e4d308842d87e973bf1951f5f7a804b21e4dd964ecd12d6b_0 5 --fee-rate 1700"
+
+while true; do
+    $command
+
+    if [ $? -ne 0 ]; then
+        echo "命令执行失败，退出循环"
+        exit 1
+    fi
+
+    sleep 60
+done
+
+4、chmod +x cat.sh
+5、 ./cat.sh 
