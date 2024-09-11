@@ -42,5 +42,13 @@
      （注意保存出现的助记词）
      1-4 开始mint   （其中 --fee-rate 90 可以自定义GAS） 
      sudo yarn cli mint -i 45ee725c2c5993b3e4d308842d87e973bf1951f5f7a804b21e4dd964ecd12d6b_0 5 --fee-rate 800
-
     
+
+2、在cat-token-box/packages/cli 目录下输入命令
+
+查看地址，转入FB
+yarn cli wallet address
+查余额和区块同步数据
+yarn cli wallet balances
+
+
