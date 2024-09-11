@@ -45,7 +45,7 @@ https://x.com/uCx4CoB9zdsu6H7
      cd cat-token-box/packages/cli
      sudo yarn cli wallet create
      （注意保存出现的助记词）
-     1-4 开始mint   （其中 --fee-rate 90 可以自定义GAS） 
+     1-4 开始mint   （其中 --fee-rate 800 可以根据链上自定义GAS） 
      sudo yarn cli mint -i 45ee725c2c5993b3e4d308842d87e973bf1951f5f7a804b21e4dd964ecd12d6b_0 5 --fee-rate 800
     
 
