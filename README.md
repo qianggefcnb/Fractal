@@ -1,3 +1,8 @@
+
+关注：
+
+https://x.com/uCx4CoB9zdsu6H7
+
 # CAT Protocol 铸造教程
 1、
     r、docker-compose、node.js
@@ -46,12 +51,16 @@
 
 2、在cat-token-box/packages/cli 目录下输入命令
 
-查看地址，转入FB
+查看地址，转入FB:
+
 yarn cli wallet address
-查余额和区块同步数据
+
+查余额和区块同步数据:
+
 yarn cli wallet balances
 
-CAT转账
+CAT转账:
+
 yarn cli send -i 45ee725c2c5993b3e4d308842d87e973bf1951f5f7a804b21e4dd964ecd12d6b_0 收货地址 数量
 
 说明：45ee725c2c5993b3e4d308842d87e973bf1951f5f7a804b21e4dd964ecd12d6b_0 是 CAT 的 TokenID
