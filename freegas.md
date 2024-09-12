@@ -14,7 +14,7 @@ while true; do
     echo $fastestFee
 
 if awk "BEGIN {exit !($fastestFee < 2000)}"
-# You can change the value of 2000
+#You can change the value of 2000
 
 then
 
@@ -34,5 +34,5 @@ else
     fi
 
     sleep 120
-    # If you are worried about merges caused by too many submissions of the same block, you can adjust the interval appropriately.
+    #If you are worried about merges caused by too many submissions of the same block, you can adjust the interval appropriately.
 done
